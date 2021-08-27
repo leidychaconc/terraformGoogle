@@ -6,7 +6,7 @@ pipeline {
     stages {
         //stage('Git checkout') {
         //    steps {
-        //         git 'https://github.com/gtatajemeneses/terraformAWS'
+        //         git 'https://github.com/leidychaconc/terraformGoogle'
         //    }
         //}
         stage('Terraform init') {
