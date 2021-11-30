@@ -78,7 +78,7 @@ locals {
   rds_name = "odoo-${random_string.suffix.result}"
 }
 resource "random_string" "suffix" {
-  length  = 4
+  length  = 5
   special = false
   lower = true
   upper = false
