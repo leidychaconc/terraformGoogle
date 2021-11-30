@@ -78,11 +78,11 @@ locals {
   rds_name = "odoo-${random_string.suffix.result}"
 }
 resource "random_string" "suffix" {
-  length  = 3
+  length  = 4
   special = false
   lower = true
   upper = false
-  number = false
+  number = true
 }
 # Create Database
 resource "google_sql_database_instance" "gcp_database" {
